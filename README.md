@@ -2,15 +2,13 @@
 
 A reddit replica
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+About Hacker News Custom App
+Hacker news is a custom app which displays all the latest and top rated articles on Computer
+Sceince and Entrepreneurshsip. The articles are extracted from ycombinator.com using their api feed.
+The outlook and the presentation of articles on the app are in Reddit like fashion, giving users 
+an utmost ease of viewing and reading articles. Users can also share interesting articles with their friends 
+on different social media platforms. There is also a 'User History' option where a user can revisit
+the articles he/she had previously read.
