@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "558788046842",
+    "project_id": "hacker-news-e1cf5",
+    "storage_bucket": "hacker-news-e1cf5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558788046842:android:34f997ee53ff68f1d4be43",
+        "android_client_info": {
+          "package_name": "com.example.fishing_chimes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "558788046842-g6vjv5q8r6evleueo17qq35pit7i4div.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMcfYi9E7Vf8JT2d1aYJIfg0N8eMqBnGY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "558788046842-g6vjv5q8r6evleueo17qq35pit7i4div.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
