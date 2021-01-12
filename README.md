@@ -5,7 +5,7 @@ A reddit replica
 
 
 
-About Hacker News Custom App
+About Hacker News Custom App:
 Hacker news is a custom app which displays all the latest and top rated articles on Computer
 Sceince and Entrepreneurshsip. The articles are extracted from ycombinator.com using their api feed.
 The outlook and the presentation of articles on the app are in Reddit like fashion, giving users 
