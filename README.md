@@ -1,4 +1,4 @@
-# fishing_chimes
+# HackerNewsCustom
 
 A reddit replica
 
