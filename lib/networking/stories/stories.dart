@@ -10,7 +10,7 @@ class NewStoriesId//to extract the IDs of the new stories from HackerNews
 
   Future fetchData() async
   {
-    Response response=await get(Uri.encodeFull(url));
+    Response response=await get(Uri.encodeFull(url));//
     if(response.statusCode==200)
     {
       return json.decode(response.body);

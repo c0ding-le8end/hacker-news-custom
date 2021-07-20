@@ -111,10 +111,13 @@ resetState()//used when there is a userData extraction delay
           if(snapshot.hasData &&snapshot.data.data()!=null)
           return FloatingActionButton(child:Icon(Icons.refresh),backgroundColor: HexColor("#FF5700	"),elevation: 10,splashColor: HexColor("#FF5700	").withOpacity(0.1),onPressed: ()=>resetState());
       else
-        return FloatingActionButton(backgroundColor: HexColor("#FF5700	"),child:Icon(Icons.refresh),onPressed:  (){
+        {
+          userStream=FirebaseFirestore.instance.collection('users').doc(userId).snapshots();
+          return
+          FloatingActionButton(backgroundColor: HexColor("#FF5700	"),child:Icon(Icons.refresh),onPressed:  (){
           resetState();
         });
-      }
+      }}
     ),);
   }
 
